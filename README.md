@@ -5,15 +5,17 @@
 This module enables validation of the Symfony 4 or later forms on the JavaScript side.
 It converts form type constraints into JavaScript validation rules.
 
-If you have Symfony 4.* - you need to use [Version 1.6.x-dev](https://github.com/formapro/JsFormValidatorBundle/tree/1.6)
+For Symfony 5.* or 6.* use master
 
-If you have Symfony 3.1.* - you need to use [Version 1.5.*](https://github.com/formapro/JsFormValidatorBundle/tree/1.5)
+~~If you have Symfony 4.* - you need to use [Version 1.6.x-dev](https://github.com/formapro/JsFormValidatorBundle/tree/1.6)~~
 
-If you have Symfony 3.0.* - you need to use [Version 1.4.*](https://github.com/formapro/JsFormValidatorBundle/tree/1.4)
+~~If you have Symfony 3.1.* - you need to use [Version 1.5.*](https://github.com/formapro/JsFormValidatorBundle/tree/1.5)~~
 
-If you have Symfony 2.8.* or 2.7.* - you need to use [Version 1.3.*](https://github.com/formapro/JsFormValidatorBundle/tree/1.3)
+~~If you have Symfony 3.0.* - you need to use [Version 1.4.*](https://github.com/formapro/JsFormValidatorBundle/tree/1.4)~~
 
-If you have Symfony 2.6.* or less - you need to use [Version 1.2.*](https://github.com/formapro/JsFormValidatorBundle/tree/1.2)
+~~If you have Symfony 2.8.* or 2.7.* - you need to use [Version 1.3.*](https://github.com/formapro/JsFormValidatorBundle/tree/1.3)~~
+
+~~If you have Symfony 2.6.* or less - you need to use [Version 1.2.*](https://github.com/formapro/JsFormValidatorBundle/tree/1.2)~~
 
 ## 1 Installation<a name="p_1"></a>
 
