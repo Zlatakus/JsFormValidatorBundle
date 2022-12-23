@@ -50,7 +50,7 @@ class FormExtension extends AbstractTypeExtension
      *
      * @return string The name of the type being extended
      */
-    public function getExtendedType()
+    public function getExtendedType(): string
     {
         return FormType::class;
     }
@@ -58,7 +58,7 @@ class FormExtension extends AbstractTypeExtension
     /**
      * {@inheritDoc}
      */
-    public static function getExtendedTypes()
+    public static function getExtendedTypes(): iterable
     {
         yield FormType::class;
     }

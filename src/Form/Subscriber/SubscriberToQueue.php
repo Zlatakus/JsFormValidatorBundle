@@ -18,7 +18,7 @@ class SubscriberToQueue implements EventSubscriberInterface
     /**
      * @var JsFormValidatorFactory
      */
-    protected $factory;
+    protected JsFormValidatorFactory $factory;
 
     /**
      * @param JsFormValidatorFactory $factory
@@ -31,7 +31,7 @@ class SubscriberToQueue implements EventSubscriberInterface
     /**
      * @return array
      */
-    public static function getSubscribedEvents()
+    public static function getSubscribedEvents(): array
     {
         return array(FormEvents::POST_SET_DATA => array('onFormSetData', -10));
     }
